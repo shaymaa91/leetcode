@@ -6,7 +6,7 @@ var sumOfUnique = function(nums) {
     //check for the unique element  
     let sum =0;
     let dupObj={};
-    //traverse the sorted array
+    //traverse the array
     for(let i=0;i<nums.length;i++){
         if(dupObj[nums[i]]){
             dupObj[nums[i]]+=1;
