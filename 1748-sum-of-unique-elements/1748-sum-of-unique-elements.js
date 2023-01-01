@@ -3,17 +3,15 @@
  * @return {number}
  */
 var sumOfUnique = function(nums) {
-    //check for the unique element
-    //sort the array, so if any duplicate they will be adjacents
-    let sortedNums = nums.sort();
+    //check for the unique element  
     let sum =0;
     let dupObj={};
     //traverse the sorted array
-    for(let i=0;i<sortedNums.length;i++){
-        if(dupObj[sortedNums[i]]){
-            dupObj[sortedNums[i]]+=1;
+    for(let i=0;i<nums.length;i++){
+        if(dupObj[nums[i]]){
+            dupObj[nums[i]]+=1;
         }else{
-            dupObj[sortedNums[i]]=1;
+            dupObj[nums[i]]=1;
         }
     }
     console.log(dupObj)
