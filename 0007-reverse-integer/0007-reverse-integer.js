@@ -3,6 +3,7 @@
  * @return {number}
  */
 var reverse = function(x) {
+    //Solution#1
 //     let s = ""+x;
 //     s=s.split("");
     
@@ -23,7 +24,7 @@ var reverse = function(x) {
     
 //     return(result)
     
-    //solution 2
+    //solution #2
     let reversedNum=0;
     let reminder;
     
