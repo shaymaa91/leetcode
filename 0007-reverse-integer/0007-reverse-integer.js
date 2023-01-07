@@ -31,7 +31,7 @@ var reverse = function(x) {
         reminder = x%10;
         x=x/10 - reminder/10;
         reversedNum= reversedNum*10 +reminder;
-        console.log(x,reminder)
+        
     }
     if(reversedNum> Math.pow(2, 31) || reversedNum< Math.pow(-2, 31)){        
         return 0}
