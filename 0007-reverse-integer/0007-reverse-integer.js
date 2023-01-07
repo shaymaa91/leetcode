@@ -23,7 +23,7 @@ var reverse = function(x) {
     
 //     return(result)
     
-    //splution 2
+    //solution 2
     let reversedNum=0;
     let reminder;
     
